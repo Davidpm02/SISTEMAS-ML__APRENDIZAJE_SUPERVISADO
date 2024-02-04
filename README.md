@@ -10,7 +10,7 @@ El repositorio se organiza en los siguientes directorios principales, cada uno d
 
 Esta carpeta contiene proyectos que aplican diversos algoritmos de clasificación. Los algoritmos de clasificación se utilizan para predecir la categoría o clase de una entidad basándose en sus características. Ejemplos de algoritmos que podrías encontrar aquí incluyen Árboles de Decisión, K-Nearest Neighbors (KNN), Support Vector Machines (SVM), y Redes Neuronales, entre otros. Cada subdirectorio dentro de esta carpeta se dedica a un conjunto de datos específico y a la experimentación con diferentes algoritmos de clasificación para ese conjunto.
 
-### [SISTEMAS_REGRESION](./Sistemas-ML_REGRESION)
+### [SISTEMAS_REGRESION](./Sistemas-ML-REGRESION_LINEAL)
 
 En esta carpeta, nos enfocamos en algoritmos de regresión, los cuales se utilizan para predecir un valor continuo basado en una o más variables independientes. Por ejemplo, predecir el precio de una casa basándose en su tamaño, ubicación, y otras características. Aquí, encontrarás proyectos que implementan algoritmos como Regresión Lineal, Regresión Polinomial, Árboles de Decisión para Regresión, y Redes Neuronales. Similar a SISTEMAS_CLASIFICACION, cada proyecto dentro de este directorio aborda un conjunto de datos diferente, permitiendo explorar la eficacia de distintos algoritmos de regresión.
 
