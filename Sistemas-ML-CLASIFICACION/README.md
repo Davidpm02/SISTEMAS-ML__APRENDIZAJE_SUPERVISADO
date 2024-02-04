@@ -10,11 +10,13 @@ En esta sección, te encontrarás con proyectos que incluyen:
 
 - **Fundamentos de Clasificación**: Introducción a los conceptos básicos y cómo preparar tus datos para la clasificación.
 - **Implementaciones con Scikit-learn**: Ejemplos prácticos utilizando uno de los frameworks más populares para Machine Learning.
+- **Análisis y Desarrollo con Datasets de sklearn.datasets**: Exploración de modelos de clasificación usando los datasets integrados en Scikit-learn, ideal para principiantes y para realizar pruebas rápidas.
 - **Optimización de Modelos**: Cómo afinar y mejorar la precisión de tus modelos de clasificación.
 - **Casos de Estudio Reales**: Aplicaciones prácticas de modelos de clasificación en diversos conjuntos de datos.
 
 Cada tema se desarrollará en subdirectorios específicos, a los cuales podrás acceder a través de los diferentes enlaces que se vayan añadiendo.
 
+- [Análisis y Desarrollo con Datasets de sklearn.datasets](./SKLEARN_datasets)
 
 ## Contribuir
 
