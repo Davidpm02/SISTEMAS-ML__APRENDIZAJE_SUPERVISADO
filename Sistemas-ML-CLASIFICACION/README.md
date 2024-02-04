@@ -1,4 +1,4 @@
-# CLASIFICACIóN
+# CLASIFICACIÓN
 
 Bienvenido a la sección de **Clasificación**, un espacio diseñado para explorar y desarrollar modelos de clasificación utilizando una variedad de conjuntos de datos. La clasificación es una de las tareas más importantes y comunes en el aprendizaje supervisado, donde el objetivo es predecir la categoría o clase de entidades basándose en sus características.
 
