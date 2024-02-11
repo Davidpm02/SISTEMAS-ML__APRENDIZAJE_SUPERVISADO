@@ -1,6 +1,6 @@
 # REGRESION LINEAL
 
-Bienvenido a la sección de Regresión Lineal, un espacio dedicado exclusivamente a la exploración y desarrollo de modelos de regresión lineal utilizando distintos conjuntos de datos. La regresión lineal, siendo uno de los algoritmos más fundamentales y comprensibles dentro del Machine Learning, ofrece una base sólida para entender cómo las variables independientes pueden predecir el valor de una variable dependiente.
+Bienvenido a la sección de Aprendizaje Supervisado dedicada a la Regresión, un espacio enfocado exclusivamente a la exploración y desarrollo de modelos de regresión utilizando distintos conjuntos de datos. La regresión, siendo uno de los algoritmos más fundamentales y comprensibles dentro del Machine Learning, ofrece una base sólida para entender cómo las variables independientes pueden predecir el valor de una variable dependiente.
 
 ## Objetivo de esta Carpeta
 
@@ -8,7 +8,7 @@ El propósito de esta carpeta es proporcionar un conjunto de ejemplos prácticos
 
 Dentro de esta carpeta, encontrarás proyectos que incluyen:
 
-- **Implementación Básica de Regresión Lineal**: Cómo construir tu primer modelo de regresión lineal desde cero.
+- **Implementación Básica de Regresión**: Cómo construir tu primer modelo de regresión desde cero.
 - **Evaluación y Optimización de Modelos**: Técnicas para evaluar la efectividad de tu modelo y optimizar su rendimiento.
 - **Uso de Frameworks como Scikit-learn**: Ejemplos que demuestran cómo implementar regresión lineal utilizando bibliotecas especializadas.
 - **Casos de Uso Reales**: Aplicaciones de regresión lineal en conjuntos de datos de la comunidad y ejemplos prácticos.
