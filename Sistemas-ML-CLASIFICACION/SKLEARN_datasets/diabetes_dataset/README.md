@@ -21,7 +21,7 @@ El conjunto de datos "diabetes" de Scikit-learn, también conocido como el "diab
 
 **Variable Objetivo**: Medida cuantitativa de la progresión de la enfermedad un año después de la línea base.
 
-### Atributos _________
+### Atributos
 Los 10 atributos predictores incluyen:
 
 **Edad**
@@ -45,3 +45,19 @@ Seis mediciones de suero sanguíneo:
    **S5**: LTG, probablemente lamotrigina.
    
    **S6**: GLU, nivel de glucosa.
+   
+---
+
+## Herramientas y Tecnologías Utilizadas
+
+**Python**: Lenguaje de programación principal para el desarrollo del proyecto.
+
+**Scikit-Learn (sklearn)**: Biblioteca de Python para Machine Learning que proporciona herramientas simples y eficientes para el análisis de datos y modelado. Se utilizará para cargar el dataset 'diabetes', así como para la implementación y evaluación de modelos de clasificación.
+
+**Jupyter Notebook**: Ambiente interactivo que permite la creación de notebooks que contienen código, visualizaciones y texto explicativo, facilitando así la documentación y compartición del análisis y resultados.
+
+---
+
+## Contribuir
+
+Se invita a contribuir al proyecto mediante la sugerencia de mejoras en el código, la implementación de nuevos modelos de clasificación o la mejora de los procesos de evaluación y optimización. Para contribuir, por favor, crea un pull request con tus propuestas.
