@@ -15,7 +15,7 @@ En el desarrollo de este proyecto, se implementaron y evaluaron cuatro modelos d
 
 El modelo KNN ha sido utilizado para clasificar los casos basándose en las características más cercanas en el espacio de características.
 
-- [CardioCheck_K-NN](/ruta/al/proyecto/KNN)
+- [CardioCheck_K-NN](../../Sistemas-ML-CLASIFICACION/K-Nearest_Neighbors__[Clasificación]/CardioCheck_K-NN)
 
 ### 2. Logistic Regression
 
