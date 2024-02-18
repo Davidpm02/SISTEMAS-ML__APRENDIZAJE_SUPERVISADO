@@ -11,38 +11,38 @@ Para el desarrollo del proyecto, se ha tomado prestado un conjunto de datos publ
 
 El dataset utilizado en CardioCheck consta de varios tipos de características:
 
-* Características Objetivas: Información factual sobre el paciente.
+* **Características Objetivas**: Información factual sobre el paciente.
     
-* Examen Médico: Resultados obtenidos de exámenes médicos.
+* **Examen Médico**: Resultados obtenidos de exámenes médicos.
 
-* Características Subjetivas: Información proporcionada directamente por el paciente.
+* **Características Subjetivas**: Información proporcionada directamente por el paciente.
 
 
 ### Características
 
-* Edad: En días.
+* **Edad**: En días.
 
-* Altura: En centímetros.
+* **Altura**: En centímetros.
 
-* Peso: En kilogramos.
+* **Peso**: En kilogramos.
 
-* Género: Código categórico (1 ==> Hombre;  2 ==> Mujer).
+* **Género**: Código categórico (1 ==> Hombre;  2 ==> Mujer).
 
-* Presión sanguínea sistólica.
+* **Presión sanguínea sistólica**.
 
-* Presión sanguínea diastólica.
+* **Presión sanguínea diastólica**.
 
-* Colesterol: 1- normal, 2- por encima de lo normal, 3- muy por encima de lo normal.
+* **Colesterol**: 1- normal, 2- por encima de lo normal, 3- muy por encima de lo normal.
 
-* Glucosa: 1- normal, 2- por encima de lo normal, 3- muy por encima de lo normal.
+* **Glucosa**: 1- normal, 2- por encima de lo normal, 3- muy por encima de lo normal.
 
-* Fumador: Binario.
+* **Fumador**: Binario.
 
-* Consumo de alcohol: Binario.
+* **Consumo de alcohol**: Binario.
 
-* Actividad física: Binario.
+* **Actividad física**: Binario.
 
-* Presencia o ausencia de enfermedad cardiovascular: Binario (variable objetivo).
+* **Presencia o ausencia de enfermedad cardiovascular**: Binario (variable objetivo).
 
 Todos los valores del dataset fueron recopilados en el momento del examen médico.
 
