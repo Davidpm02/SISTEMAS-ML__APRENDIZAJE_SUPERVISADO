@@ -22,7 +22,7 @@ Este modelo utiliza un árbol de decisión para predecir la cancelación de rese
 
 El modelo de Random Forest mejora la predicción utilizando múltiples árboles de decisión para reducir el riesgo de sobreajuste.
 
-- [Hotel Booking Demand_RandomForestClassifier](../../Sistemas-ML-CLASIFICACION/Random_Forest [Clasificación]/Hotel Booking Demand_RandomForestClassifier)
+- [Hotel Booking Demand_RandomForestClassifier](../../Sistemas-ML-CLASIFICACION/Random_Forest__[Clasificación]/HotelBookingDemand_RandomForestClassifier)
 
 ### 3. Multi-Layer Perceptron (MLPClassifier)
 
