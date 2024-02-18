@@ -8,6 +8,29 @@ El conjunto de datos lo he obtenido del portal web ***ScienceDirect***, y puedes
 
 ---
 
+## Modelos Desarrollados
+
+Para este proyecto, se han desarrollado tres modelos de clasificación diferentes, utilizando técnicas de Machine Learning avanzadas:
+
+### 1. Decision Tree (Árbol de Decisión)
+
+Este modelo utiliza un árbol de decisión para predecir la cancelación de reservas, basándose en la estructura de árbol para la toma de decisiones.
+
+- [Hotel Booking Demand_DecisionTreeClassifier](/ruta/al/proyecto/DecisionTree)
+
+### 2. Random Forest (Bosque Aleatorio)
+
+El modelo de Random Forest mejora la predicción utilizando múltiples árboles de decisión para reducir el riesgo de sobreajuste.
+
+- [Hotel Booking Demand_RandomForestClassifier](/ruta/al/proyecto/RandomForest)
+
+### 3. Multi-Layer Perceptron (MLPClassifier)
+
+Se implementó un modelo de perceptrón multicapa (MLPClassifier) para capturar las complejidades de las relaciones entre las características mediante una red neuronal.
+
+- [Hotel Booking Demand_MLPClassifier](/ruta/al/proyecto/MLPClassifier)
+
+
 ## Conjunto de datos
 
 
