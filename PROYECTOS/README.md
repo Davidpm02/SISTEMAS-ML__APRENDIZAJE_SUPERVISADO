@@ -10,12 +10,12 @@ Este repositorio se organiza en subcarpetas, cada una representando un proyecto 
 
 A continuación, se muestra un listado de los proyectos disponibles, junto con una breve descripción de cada uno y enlaces a sus respectivos README para más detalles.
 
-### CardioCheck](/SISTEMAS_ML/PROYECTOS/CARDIO_CHECK/)
+### CardioCheck](PROYECTOS/CARDIO_CHECK)
 
 CardioCheck es un proyecto de Machine Learning diseñado para predecir la presencia o ausencia de enfermedades cardiovasculares en pacientes. Utiliza una combinación de características objetivas, resultados de exámenes médicos y datos subjetivos proporcionados por los pacientes, basándose en un conjunto de datos publicado en Kaggle por Svetlana Ulianova.
 
 
-### [Hotel Booking Demand](/SISTEMAS_ML/PROYECTOS/HOTEL_BOOKING_DEMAND/)
+### [Hotel Booking Demand](PROYECTOS/HOTEL_BOOKING_DEMAND)
 
 Hotel Booking Demand es un análisis de datos y proyecto de predicción que utiliza datos de reservas de hoteles urbanos y turísticos. Este proyecto se centra en predecir la probabilidad de cancelación de reservas de hotel, una problemática que ha afectado a la industria en los últimos años. Utiliza un dataset disponible en ScienceDirect y emplea técnicas de Machine Learning para ayudar a optimizar el proceso de reservas.
 
