@@ -33,7 +33,7 @@ Se ha implementado un perceptrón multicapa para modelar la complejidad de las r
 
 El modelo SVM se utilizó para encontrar el hiperplano que mejor divide los casos de enfermedades cardiovasculares de los no casos.
 
-- [CardioCheck_SVM](/ruta/al/proyecto/SVM)
+- [CardioCheck_SVM](../../Sistemas-ML-CLASIFICACION/Support_Vector_Machines__[Clasificación]/CardioCheck_SVM)
 
 
 
