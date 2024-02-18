@@ -21,7 +21,7 @@ El modelo KNN ha sido utilizado para clasificar los casos basándose en las cara
 
 Este modelo aplica la regresión logística para predecir la probabilidad de ocurrencia de enfermedad cardiovascular.
 
-- [CardioCheck_LogisticRegression](/ruta/al/proyecto/LogisticRegression)
+- [CardioCheck_LogisticRegression](../../Sistemas-ML-CLASIFICACION/Logistic_Regression__[Clasificación]/CardioCheck_LogisticRegression)
 
 ### 3. Multi-Layer Perceptron (MLPClassifier)
 
