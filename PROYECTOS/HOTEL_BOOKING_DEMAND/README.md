@@ -28,7 +28,7 @@ El modelo de Random Forest mejora la predicción utilizando múltiples árboles 
 
 Se implementó un modelo de perceptrón multicapa (MLPClassifier) para capturar las complejidades de las relaciones entre las características mediante una red neuronal.
 
-- [Hotel Booking Demand_MLPClassifier](/ruta/al/proyecto/MLPClassifier)
+- [Hotel Booking Demand_MLPClassifier](../../Sistemas-ML-CLASIFICACION/Neural_Networks__[Clasificación]/HotelBookingDemand_MLPClassifier)
 
 
 ## Conjunto de datos
