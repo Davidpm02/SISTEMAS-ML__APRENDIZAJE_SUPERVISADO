@@ -16,7 +16,7 @@ Para este proyecto, se han desarrollado tres modelos de clasificación diferente
 
 Este modelo utiliza un árbol de decisión para predecir la cancelación de reservas, basándose en la estructura de árbol para la toma de decisiones.
 
-- [Hotel Booking Demand_DecisionTreeClassifier](/ruta/al/proyecto/DecisionTree)
+- [Hotel Booking Demand_DecisionTreeClassifier](../../Sistemas-ML-CLASIFICACION/Decision_Tree__[Clasificación]/HotelBookingDemand_DecisionTreeClassifier)
 
 ### 2. Random Forest (Bosque Aleatorio)
 
