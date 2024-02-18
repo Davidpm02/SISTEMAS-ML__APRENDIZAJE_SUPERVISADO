@@ -27,7 +27,7 @@ Este modelo aplica la regresión logística para predecir la probabilidad de ocu
 
 Se ha implementado un perceptrón multicapa para modelar la complejidad de las relaciones entre las características y la presencia de enfermedades cardiovasculares.
 
-- [CardioCheck_MLPClassifier](/ruta/al/proyecto/MLPClassifier)
+- [CardioCheck_MLPClassifier](../../Sistemas-ML-CLASIFICACION/Neural_Networks__[Clasificación]/CardioCheck_MLPClassifier)
 
 ### 4. Support Vector Machine (SVM)
 
