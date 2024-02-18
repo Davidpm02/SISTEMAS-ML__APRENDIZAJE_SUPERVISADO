@@ -7,6 +7,38 @@ Para el desarrollo del proyecto, se ha tomado prestado un conjunto de datos publ
 
 ---
 
+## Modelos Desarrollados
+
+En el desarrollo de este proyecto, se implementaron y evaluaron cuatro modelos diferentes de Machine Learning, utilizando las siguientes técnicas:
+
+### 1. K-Nearest Neighbors (KNN)
+
+El modelo KNN ha sido utilizado para clasificar los casos basándose en las características más cercanas en el espacio de características.
+
+- [CardioCheck_K-NN](/ruta/al/proyecto/KNN)
+
+### 2. Logistic Regression
+
+Este modelo aplica la regresión logística para predecir la probabilidad de ocurrencia de enfermedad cardiovascular.
+
+- [CardioCheck_LogisticRegression](/ruta/al/proyecto/LogisticRegression)
+
+### 3. Multi-Layer Perceptron (MLPClassifier)
+
+Se ha implementado un perceptrón multicapa para modelar la complejidad de las relaciones entre las características y la presencia de enfermedades cardiovasculares.
+
+- [CardioCheck_MLPClassifier](/ruta/al/proyecto/MLPClassifier)
+
+### 4. Support Vector Machine (SVM)
+
+El modelo SVM se utilizó para encontrar el hiperplano que mejor divide los casos de enfermedades cardiovasculares de los no casos.
+
+- [CardioCheck_SVM](/ruta/al/proyecto/SVM)
+
+
+
+
+
 ## Descripción del Dataset
 
 El dataset utilizado en CardioCheck consta de varios tipos de características:
