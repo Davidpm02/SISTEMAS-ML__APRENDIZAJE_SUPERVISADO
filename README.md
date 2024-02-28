@@ -1,4 +1,4 @@
-# SISTEMAS_ML
+# SISTEMAS_ML (APRENDIZAJE SUPERVISADO)
 
 Bienvenido al repositorio SISTEMAS_ML, un espacio dedicado a la experimentación y el desarrollo de modelos de Machine Learning utilizando diversos conjuntos de datos. Este repositorio está organizado en carpetas, cada una enfocada en un tipo específico de algoritmo de Machine Learning, ya sea para clasificación o regresión. Nuestro objetivo es proporcionar una base sólida y ejemplos prácticos para aquellos interesados en profundizar en el mundo del aprendizaje automático.
 
