@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Census Income</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+
+    <div class="center">
+        <h1>Census-Income</h1>
+        <div class="form-container">
+          <form action="/output_predict" id="censusForm" method="post" onsubmit="submitForm(event);">
+            <div class="inputbox">
+                <input name="age" type="text" required="required">
+                <span>Edad</span>
+            </div>
+            <div class="inputbox">
+                <span>Clase de trabajo</span>
+                <select name="workclass" required="required">
+                  <option value="">Seleccione una opción</option>
+                  <option value="Private">Private</option>
+                  <option value="Self-emp-not-inc">Self-emp-not-inc</option>
+                  <option value="Self-emp-inc">Self-emp-inc</option>
+                  <option value="Federal-gov">Federal-gov</option>
+                  <option value="Local-gov">Local-gov</option>
+                  <!-- Agrega el resto de opciones según corresponda -->
+                </select>
+              </div>
+            <div class="inputbox">
+                <span>Educación</span>
+                <select name="education" required="required">
+                  <option value="">Seleccione una opción</option>
+                  <option value="5th-6th">5th-6th</option>
+                  <option value="7th-8th">7th-8th</option>
+                  <option value="9th">9th</option>
+                  <option value="10th">10th</option>
+                  <option value="11th">11th</option>
+                  <option value="12th">12th</option>
+                  <option value="Assoc-acdm">Assoc-acdm</option>
+                  <option value="Assoc-voc">Assoc-voc</option>
+                  <option value="Bachelors">Bachelors</option>
+                  <option value="Doctorate">Doctorate</option>
+                  <option value="HS-grad">HS-grad</option>
+                  <option value="Masters">Masters</option>
+                  <option value="Prof-school">Prof-school</option>
+                  <option value="Some-college">Some-college</option>
+                  <!-- Agrega el resto de opciones según corresponda -->
+                </select>
+              </div>
+            <div class="inputbox">
+                <input name="education_num" type="text" required="required">
+                <span>Años de educación</span>
+            </div>
+            <div class="inputbox">
+                <span>Estado civil</span>
+                <select name="marital_status" required="required">
+                  <option value="">Seleccione una opción</option>
+                  <option value="Divorced">Divorced</option>
+                  <option value="Married-AF-spouse">Married-AF-spouse</option>
+                  <option value="Married-civ-spouse">Married-civ-spouse</option>
+                  <option value="Never-married">Never-married</option>
+                  <option value="Separated">Separated</option>
+                  <option value="Widowed">Widowed</option>
+                  <!-- Agrega el resto de opciones según corresponda -->
+                </select>
+            </div>
+            <div class="inputbox">
+                <span>Ocupación</span>
+                <select name="occupation" required="required">
+                  <option value="">Seleccione una opción</option>
+                  <option value="Adm-clerical">Adm-clerical</option>
+                  <option value="Craft-repair">Craft-repair</option>
+                  <option value="Exec-managerial">Exec-managerial</option>
+                  <option value="Farming-fishing">Farming-fishing</option>
+                  <option value="Handlers-cleaners">Handlers-cleaners</option>
+                  <option value="Machine-op-inspct">Machine-op-inspct</option>
+                  <option value="Other-service">Other-service</option>
+                  <option value="Priv-house-serv">Priv-house-serv</option>
+                  <option value="Prof-specialty">Prof-specialty</option>
+                  <option value="Protective-serv">Protective-serv</option>
+                  <option value="Sales">Sales</option>
+                  <option value="Transport-moving">Transport-moving</option>
+                  <!-- Agrega el resto de opciones según corresponda -->
+                </select>
+            </div>
+
+            <div class="inputbox">
+                <span>Relación</span>
+                <select name="relationship" required="required">
+                    <option value="">Seleccione una opción</option>
+                    <option value="Husband">Husband</option>
+                    <option value="Not-in-family">Not in family</option>
+                    <option value="Other-relative">Other relative</option>
+                    <option value="Unmarried">Unmarried</option>
+                    <option value="Wife">Wife</option>
+                  </select>
+            </div>
+            <div class="inputbox">
+                <span>Raza</span>
+                <select name="race" required="required">
+                  <option value="">Seleccione una opción</option>
+                  <option value="White">White</option>
+                  <option value="Asian-Pac-Islander">Asian-Pac-Islander</option>
+                  <option value="Other">Other</option>
+                  <option value="Black">Black</option>
+                </select>
+              </div>
+            <div class="inputbox">
+                <span>Género</span>
+                <select name="sex" required="required">
+                  <option value="">Seleccione una opción</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>  <!--Solo existe la columna sex_Female-->
+                </select>
+            </div>
+            <div class="inputbox">
+                <input name="capital_gain" type="text" required="required">
+                <span>Ganancias en inversiones</span>
+            </div>
+            <div class="inputbox">
+                <input name="capital_loss" type="text" required="required">
+                <span>Pérdidas en inversiones</span>
+            </div>
+            <div class="inputbox">
+                <input name="hours_per_week" type="text" required="required">
+                <span>Horas laborales por semana</span>
+            </div>
+            <div class="inputbox">
+                <span>País natal</span>
+                <select name="native_country" required="required">
+                  <option value="">Seleccione una opción</option>
+                  <option value="Cambodia">Cambodia</option>
+                  <option value="China">China</option>
+                  <option value="Columbia">Columbia</option>
+                  <option value="England">England</option>
+                  <option value="France">France</option>
+                  <option value="Germany">Germany</option>
+                  <option value="India">India</option>
+                  <option value="Iran">Iran</option>
+                  <option value="Italy">Italy</option>
+                  <option value="Japan">Japan</option>
+                  <option value="Laos">Laos</option>
+                  <option value="Mexico">Mexico</option>
+                  <option value="Nicaragua">Nicaragua</option>
+                  <option value="Peru">Peru</option>
+                  <option value="Philippines">Philippines</option>
+                  <option value="Portugal">Portugal</option>
+                  <option value="Puerto-Rico">Puerto-Rico</option>
+                  <option value="Scotland">Scotland</option>
+                  <option value="Taiwan">Taiwan</option>
+                  <option value="Thailand">Thailand</option>
+                  <option value="Vietnam">Vietnam</option>
+                  <!-- Agrega el resto de opciones según corresponda, ten en cuenta que hay muchos países -->
+                </select>
+            </div>
+            <div class="inputbox">
+                <input type="submit" value="¡Generar predicción!">
+            </div>
+            </form>
+            
+        </div>
+      </div>
+
+      <div id="formResponse"></div>
+
+
+      <script>
+        function submitForm(event) {
+          event.preventDefault(); // Previene el comportamiento predeterminado del formulario.
+
+          const formData = new FormData(document.getElementById('censusForm'));
+
+          fetch('/output_predict', {
+            method: 'POST',
+            body: formData
+          })
+          .then(response => response.json())
+          .then(data => {
+            // Mostramos la respuesta en el contenedor designado
+            document.getElementById('formResponse').innerHTML = 'Respuesta: ' + data.message;
+          })
+          .catch(error => {
+            console.error('Error:', error);
+          });
+        }
+
+
+      </script>
+   
+</body>
+</html>
