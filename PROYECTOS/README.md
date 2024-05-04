@@ -29,7 +29,7 @@ Estoy abierto a colaboraciones y contribuciones. Si estás interesado en contrib
 Si tienes preguntas, comentarios, o deseas discutir sobre posibles colaboraciones, no dudes en contactarme.
 
 - Email: padish_dev@proton.me
-- LinkedIn: [tuLinkedIn]([https://www.linkedin.com/in/tu-perfil/](https://www.linkedin.com/in/david-padilla-mu%C3%B1oz-52126725a/))
+- LinkedIn: https://www.linkedin.com/in/david-padilla-mu%C3%B1oz-52126725a/
 
 
 ---
